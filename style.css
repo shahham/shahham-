@@ -1,0 +1,120 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: outfit;
+}
+
+.img {
+    width: 100%;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto 20px auto;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.card-img {
+    border-radius: 5px;
+    background: url(./images/image-equilibrium.jpg) center no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.card-img_view {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+
+.card-img_view:hover {
+    background: hsl(178, 100%, 50%, 0.5) url(./images/icon-view.svg);
+    cursor: pointer;
+}
+
+.card-name {
+    margin-bottom: 10px;
+    color: 0, 0%, 100%;
+}
+
+.card-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-description {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 23%, 27%);
+}
+
+.card-details_etherum {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.card-details_price {
+    justify-self: start;
+    margin-right: auto;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.card-details-clock {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.card-creator {
+    display: flex;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-creator_img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+    background: url(./images/image-avatar.png);
+    background-size: cover;
+}
+
+.card-creator_description {
+    color: hsl(215, 51%, 70%);
+}
+
+.card-creator_name {
+    text-decoration: none;
+    color: hsl(0, 0%, 99%);
+}
+
+.card-creator_name:hover {
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
